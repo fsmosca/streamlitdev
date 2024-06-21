@@ -5,7 +5,9 @@ st.set_page_config(layout='wide')
 
 
 def Home():
-    st.subheader('Home')
+    st.header('Streamlit Navigator')
+
+    st.markdown('A new page navigation system is introduced by the latest streamlit version.')
 
 
 def main():
